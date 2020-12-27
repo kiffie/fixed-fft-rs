@@ -3,6 +3,7 @@ name = "fixed-fft"
 description = "Fixed-point Fast Fourier Transform"
 version = "0.1.0"
 authors = ["Stephan <kiffie@mailbox.org>"]
+license = "MIT"
 edition = "2018"
 categories = [
     "mathematics",
