@@ -1,0 +1,23 @@
+[package]
+name = "fixed-fft"
+description = "Fixed-point Fast Fourier Transform"
+version = "0.1.0"
+authors = ["Stephan <kiffie@mailbox.org>"]
+edition = "2018"
+categories = [
+    "mathematics",
+    "embedded",
+    "no-std",
+]
+keywords = [
+    "FFT",
+    "fixed-point",
+]
+repository = "https://github.com/kiffie/fixed-fft-rs"
+
+[dependencies]
+num-complex = { version = "0.3.1", default-features = false  }
+
+[dev-dependencies]
+num-complex = { version = "0.3.1", default-features = true  }
+
