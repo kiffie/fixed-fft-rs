@@ -1,5 +1,8 @@
 # Fixed-point Fast Fourier Transform
 
+[![Crates.io](https://img.shields.io/crates/v/fixed-fft)](https://crates.io/crates/fixed-fft)
+[![docs.rs](https://img.shields.io/docsrs/fixed-fft)](https://docs.rs/fixed-fft)
+
 This "no-std" crate is intended for use with cores without an FPU and that can
 perform a fixed point FFT more quickly. The FFT code uses
 a signed 16 bit number format, which is interpreted as a Q15
